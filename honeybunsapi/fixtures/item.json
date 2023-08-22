@@ -1,0 +1,57 @@
+[
+  {
+      "model": "honeybunsapi.item",
+      "pk": 1,
+      "fields": {
+          "name": "Grandmas French Toast",
+          "description": "Three Pieces of French Toast, Two Eggs, Two Pieces of Bacon.",
+          "image_url": "https://therecipecritic.com/wp-content/uploads/2023/02/brioche_french_toast-1.jpg",
+          "price": 13.99,
+          "user_id": 1
+      }
+    },
+    {
+      "model": "honeybunsapi.item",
+      "pk": 2,
+      "fields": {
+          "name": "Shrimp & Grits",
+          "description": "New Orleans Style Shripm & Grits!",
+          "image_url": "https://www.thewickednoodle.com/wp-content/uploads/2021/01/Cajun-Shrimp-and-Grits-3-of-5-735x490.jpg",
+          "price": 12.99,
+          "user_id": 1
+      }
+    },
+    {
+        "model": "honeybunsapi.item",
+        "pk": 3,
+        "fields": {
+            "name": "The Big Steak Omelet ",
+            "description": "Egg White Steak Omelet with Hashbrown inside with pico and salsa! Also, comes with Three pancakes.",
+            "image_url": "https://www.recipetineats.com/wp-content/uploads/2021/03/Egg-White-Omelette-in-skillet_0.jpg",
+            "price": 15.99,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "honeybunsapi.item",
+        "pk": 4,
+        "fields": {
+            "name": "Heat, Heat, Heat",
+            "description": "A very tasty breakfast taco with a little kick! Five tacos per plate!",
+            "image_url": "https://www.acouplecooks.com/wp-content/uploads/2021/02/Breakfast-Tacos-003.jpg",
+            "price": 11.99,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "honeybunsapi.item",
+        "pk": 5,
+        "fields": {
+            "name": "The Prickly Python",
+            "description": "A Four stack of pancakes with any type of fruite, syrups, or protien you want to put inside. Comes with Three Pieces of Bancon and Two Eggs.",
+            "image_url": "https://letsdishrecipes.com/wp-content/uploads/2015/01/Pancakes-feature-480x480.jpg",
+            "price": 12.50,
+            "user_id": 1
+        }
+    }
+]

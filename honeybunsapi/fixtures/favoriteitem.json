@@ -1,0 +1,18 @@
+[
+    {
+      "model": "honeybunsapi.favoriteitem",
+      "pk": 1,
+      "fields": {
+        "product": 1,
+        "user": 1
+      }
+    },
+    {
+      "model": "honeybunsapi.favoriteitem",
+      "pk": 2,
+      "fields": {
+        "product": 3,
+        "user": 1      
+      }
+    }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "model": "honeybunsapi.orderitem",
+    "pk": 1,
+    "fields": {
+      "item_id": 2,
+      "order_id": 1
+    }
+  }
+]

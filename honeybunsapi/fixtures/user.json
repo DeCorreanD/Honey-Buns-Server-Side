@@ -1,0 +1,14 @@
+[
+  {
+    "model": "honeybunsapi.user",
+    "pk": 1,
+    "fields": {
+      "first_name": "DeCorrean",
+      "last_name": "Davis",
+      "phone_number": "615-753-0487",
+      "email": "decorrean.davis@gmail.com",
+      "address": "1014 Maxwell Ave",
+      "uid": "Y5v81Z0IxGdUcIitqsT9fhuxsFV2"
+    }
+  }
+]
