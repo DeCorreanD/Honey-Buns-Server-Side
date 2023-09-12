@@ -8,3 +8,12 @@ class Item(models.Model):
     image_url = models.URLField()
     description = models.CharField(max_length=100)
     user_id = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    @property
+    def favorited(self):
+        """custom property to add favorite to a product"""
+        return self.__favorited
+
+    @favorited.setter
+    def favorited(self, value):
+        self.__favorited = value
