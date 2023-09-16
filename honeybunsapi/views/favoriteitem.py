@@ -20,7 +20,7 @@ class FavoriteItemView(ViewSet):
     def list(self, request):
         """GET request for a list of users"""
         favorite_items = FavoriteItem.objects.all()
-        uid = request.data['uid']
+        uid = request.META['HTTP_AUTHORIZATION']
         user = User.objects.get(uid=uid)
         favorite_items = favorite_items.filter(user_id = user)
         serializer = FavoriteItemSerializer(favorite_items, many=True, context={'request': request})
@@ -28,7 +28,7 @@ class FavoriteItemView(ViewSet):
     
 class FavoriteItemSerializer(serializers.ModelSerializer):
   """JSON serializer for categories"""
-  item = ItemSerializer()
+#   item = ItemSerializer()
   class Meta:
       model = FavoriteItem
       fields = ('id', 'product', 'user')
